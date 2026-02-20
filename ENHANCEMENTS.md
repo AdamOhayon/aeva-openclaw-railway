@@ -6,8 +6,10 @@ This is a fork of [openclaw-railway-template](https://github.com/codetitlan/open
 
 ### CLI Tools
 - **GitHub CLI (`gh`)** - Full GitHub operations (issues, PRs, repos, CI/CD)
+- **gog** - Google Workspace CLI (Gmail, Calendar, Drive, Contacts, Sheets, Docs)
 - **jq** - JSON processing and manipulation
 - **wget** - Additional file download tool
+- **Homebrew** - Package manager (already in original template)
 
 ### Utilities
 - **vim** - Text editor
@@ -21,9 +23,9 @@ This is a fork of [openclaw-railway-template](https://github.com/codetitlan/open
 
 With these binaries, OpenClaw can now run ALL skills that require shell access:
 - ✅ GitHub skill (gh CLI)
+- ✅ Google Workspace skill (gog CLI for Gmail, Calendar, Drive, etc.)
 - ✅ Notion skill (curl - already included)
 - ✅ OpenAI Whisper API (curl - already included)
-- ✅ Google Workspace (gog - if installed as skill)
 - ✅ Web search (Brave API - no binary needed)
 - ✅ Media processing (ffmpeg for audio/video)
 
